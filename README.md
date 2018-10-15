@@ -44,7 +44,7 @@ data: [
 ## Simple Usage:
 
 ```$xslt
-import { CohortBasic } from 'react-cohort-graph';
+import { CohortBasic } from 'cohort-graph-react';
 
 
 <CohortBasic width={1000} 
