@@ -38,12 +38,14 @@
 }
 .day-count {
     color: #afabab;
+    font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     margin-top: 0px;
     font-size: 12px;
 }
 .day-percent {
     color: #797979;
+    font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
     margin: -13px;
@@ -51,6 +53,7 @@
 }
 .user-count {
     font-size: 12px;
+    font-family: 'Lato', sans-serif;
     margin: -10px 0px 11px;
     color: #464646;
 }
