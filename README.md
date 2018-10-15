@@ -4,12 +4,12 @@ A library of to show React cohort graph
 Run the following command:
 `npm start`
 
-##How to use:
-###Props:
+## How to use:
+### Props:
 `width: any integer`
 <br/>
 <br/>
-####Day Wise Cohort:
+#### Day Wise Cohort:
 ```
 data: [
 {date: "2018-09-25T00:00:00", retention: "100", user: 201, data: [100,20,30,20,0,40,60]},
@@ -21,7 +21,7 @@ data: [
 {date: "2018-10-01T00:00:00",retention: "100", user: 23, data: [100]},
   ]
   ```
-####Month Wise Cohort: (3 month data)
+#### Month Wise Cohort: (3 month data)
 ```
 data: [
 {date: "2018-09-25T00:00:00", retention: "100", user: 201, data: [100,20,15]},
@@ -29,7 +29,7 @@ data: [
 {date: "2018-09-27T00:00:00",retention: "20.6", user: 121, data: [100]},
   ]
   ```
-####Week Wise Cohort:(4 week data)
+#### Week Wise Cohort:(4 week data)
 ```
 data: [
 {date: "2018-09-25T00:00:00", retention: "100", user: 201, data: [100,40,20,15]},
@@ -41,7 +41,7 @@ data: [
 
   
 
-##Simple Usage:
+## Simple Usage:
 
 ```$xslt
 import { CohortBasic } from 'react-cohort-graph';
