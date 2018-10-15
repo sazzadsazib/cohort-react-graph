@@ -10,7 +10,7 @@
 /build
 
 #Jetbrains
-/.idea
+# /.idea
 
 #env files
 src/env.js
