@@ -1,2 +1,2 @@
-import TextInput from "./TextInput/TextInput";
-export { TextInput };
+import CohortBasic from "./Cohort/CohortComponent";
+export { CohortBasic };

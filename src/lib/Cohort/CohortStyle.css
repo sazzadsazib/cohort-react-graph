@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+.container {
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.row {
+    display: -webkit-box;
+}
+.col-block {
+    /*background: #3f51b554;*/
+    border: 1px solid rgba(44, 57, 127, 0.13);
+    text-align: center;
+    /*width: 150px;*/
+    font-family: 'Lato', sans-serif;
+    padding: 10px 0px;
+    color: #2f355a;
+    cursor: pointer;
+}
+.col-block:hover {
+    color: black;
+}
+.col-block-th {
+    background: #f3f3f3b8;
+    border: 1px solid #efececc7;
+    text-align: center;
+    /*width: 150px;*/
+    font-family: 'Lato', sans-serif;
+    padding: 5px 0px;
+    padding-bottom: 10px;
+}
+.col-block-th:hover {
+    background: rgba(231, 231, 231, 0.72);
+    border: 1px solid #efececc7;
+    cursor: default;
+}
+.day-count {
+    color: #afabab;
+    text-transform: uppercase;
+    margin-top: 0px;
+    font-size: 12px;
+}
+.day-percent {
+    color: #797979;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: -13px;
+    font-size: 16px;
+}
+.user-count {
+    font-size: 12px;
+    margin: -10px 0px 11px;
+    color: #464646;
+}
+.data-count {
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
