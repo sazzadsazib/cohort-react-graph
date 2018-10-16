@@ -25,7 +25,7 @@ class CohortComponent extends Component {
                     <div className="row" key={i}>
                         <div className="col-block-th" style={{width: ((this.props.width/this.props.data.length+1)-5)}}>
                             <p className="day-count">{new Date(item.date).toLocaleDateString('en', dateOptions)}</p>
-                            <p className="user-count">{item.user} New User</p>
+                            <p className="user-count">{item.user > 1000 ? item.user > 1000000 ? <span>{(item.user/1000000)}M</span>: <span>{(item.user/1000)}K</span> : item.user } New User</p>
                         </div>
                         {item.data.map((item,i)=>
                             <div className='col-block' key={i} style={{width: ((this.props.width/this.props.data.length+1)-5),background: 'rgba(110, 126, 212, '+(item/100)+')'}}>

@@ -1,4 +1,4 @@
-# Cohort React Graph
+# Cohort React Graph &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/sazzadsazib/cohort-react-graph/blob/master/LICENSE)
 A library of to show React cohort graph
 ## Installation
 Run the following command:

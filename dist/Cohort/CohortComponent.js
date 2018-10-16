@@ -65,7 +65,7 @@ function (_Component) {
           className: "day-count"
         }, new Date(item.date).toLocaleDateString('en', dateOptions)), React.createElement("p", {
           className: "user-count"
-        }, item.user, " New User")), item.data.map(function (item, i) {
+        }, item.user > 1000 ? item.user > 1000000 ? React.createElement("span", null, item.user / 1000000, "M") : React.createElement("span", null, item.user / 1000, "K") : item.user, " New User")), item.data.map(function (item, i) {
           return React.createElement("div", {
             className: "col-block",
             key: i,

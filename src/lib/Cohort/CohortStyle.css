@@ -48,13 +48,13 @@
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
-    margin: -13px;
+    margin: -8px;
     font-size: 16px;
 }
 .user-count {
     font-size: 12px;
     font-family: 'Lato', sans-serif;
-    margin: -10px 0px 11px;
+    margin: -5px 0px 11px;
     color: #464646;
 }
 .data-count {
