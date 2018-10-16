@@ -63,7 +63,7 @@ function (_Component) {
           }
         }, React.createElement("p", {
           className: "day-count"
-        }, new Date(item.date).toLocaleDateString('en', dateOptions)), React.createElement("p", {
+        }, item.date ? new Date(item.date).toLocaleDateString('en', dateOptions) : "N/A"), React.createElement("p", {
           className: "user-count"
         }, item.user > 1000 ? item.user > 1000000 ? React.createElement("span", null, item.user / 1000000, "M") : React.createElement("span", null, item.user / 1000, "K") : item.user, " New Users")), item.data.map(function (item, i) {
           return React.createElement("div", {
