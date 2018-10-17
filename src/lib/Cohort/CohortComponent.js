@@ -16,7 +16,7 @@ class CohortComponent extends Component {
                     </div>
                     {this.props.data.map((item,i)=>
                         <div className="col-block-th" style={{width: ((this.props.width/this.props.data.length+1)-5)}} key={i}>
-                            <p className="day-count">{this.props.data.length === 7 ? "DAY" : this.props.data.length === 4 ? "MONTH": "WEEK"} {i+1}</p>
+                            <p className="day-count">{this.props.data.length === 7 ? "DAY" : this.props.data.length === 4 ? "WEEK": "MONTH"} {i+1}</p>
                             <p className="day-percent">{item.retention}%</p>
                         </div>
                     )}

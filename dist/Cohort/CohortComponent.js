@@ -49,7 +49,7 @@ function (_Component) {
           key: i
         }, React.createElement("p", {
           className: "day-count"
-        }, _this.props.data.length === 7 ? "DAY" : _this.props.data.length === 4 ? "MONTH" : "WEEK", " ", i + 1), React.createElement("p", {
+        }, _this.props.data.length === 7 ? "DAY" : _this.props.data.length === 4 ? "WEEK" : "MONTH", " ", i + 1), React.createElement("p", {
           className: "day-percent"
         }, item.retention, "%"));
       })), this.props.data.map(function (item, i) {
