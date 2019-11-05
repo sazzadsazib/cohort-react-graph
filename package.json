@@ -2,7 +2,7 @@
   "name": "cohort-graph-react",
   "version": "0.1.8",
   "dependencies": {
-    "@babel/cli": "^7.2.3",
+    "@babel/cli": "^7.7.0",
     "@babel/core": "^7.3.4",
     "babel-preset-react-app": "^7.0.2"
   },
